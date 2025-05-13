@@ -94,3 +94,12 @@ The script will start both the backend server (port 20201) and frontend server (
 - `GET /api/calculations` - Get all calculations for logged-in user
 - `POST /api/calculations` - Create a new calculation
 - `DELETE /api/calculations/:id` - Delete a calculation
+
+## GitHub Workflow
+
+### Issue & Pull Request Management
+- Always use GitHub MCP (Managed Code Profiles) for interacting with the GitHub repository
+- Use GitHub MCP for fetching issues, creating pull requests, commenting, and any other GitHub operations
+- Auth tokens are already associated with the GitHub MCP functions - do not use separate auth tokens
+- Never use curl commands for GitHub API operations
+- For operations like fetching issues, commit changes, or creating pull requests, rely exclusively on the GitHub MCP tools
