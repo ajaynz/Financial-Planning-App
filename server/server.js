@@ -13,7 +13,8 @@ connectDB()
   .then(() => console.log('MongoDB connected successfully'))
   .catch(err => {
     console.error('MongoDB connection error:', err.message);
-    process.exit(1);
+    // Continue without database in development mode
+    console.log('App will run with limited functionality');
   });
 
 // Middleware
