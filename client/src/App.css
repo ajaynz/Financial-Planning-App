@@ -1,0 +1,76 @@
+/* General Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.calculator-container {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  margin-bottom: 30px;
+}
+
+.calculator-title {
+  color: #2c3e50;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #3498db;
+}
+
+/* Form Styles */
+.form-label {
+  font-weight: 600;
+  color: #566573;
+}
+
+.result-container {
+  background-color: #e8f4f8;
+  border-left: 4px solid #3498db;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.result-value {
+  color: #2980b9;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+/* Card styles */
+.feature-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.feature-icon {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  color: #3498db;
+}
+
+/* Dashboard styles */
+.dashboard-stat-card {
+  background: linear-gradient(135deg, #3498db, #2c3e50);
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-stat-value {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.dashboard-stat-label {
+  font-size: 1rem;
+  opacity: 0.9;
+}
