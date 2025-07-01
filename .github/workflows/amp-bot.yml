@@ -74,6 +74,7 @@ jobs:
         run: |
           # Create prompt file with diff
           {
+            echo "Amp is being executed in a Github Action running in headless environment without a browser. Don't try to launch a browser"
             echo "Please review this PR and provide feedback for inline comments in the following EXACT format:"
             echo ""
             echo "REQUIRED FORMAT:"
