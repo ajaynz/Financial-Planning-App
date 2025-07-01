@@ -54,7 +54,7 @@ const Home = () => {
               <p className="lead my-4">
                 Plan, track, and visualize your finances with our comprehensive suite of financial planning tools.
               </p>
-              <Link to="/register">
+              <Link to="/pricing">
                 <Button variant="light" size="lg" className="me-3">
                   Get Started
                 </Button>
@@ -139,9 +139,9 @@ const Home = () => {
       <Container className="py-5 text-center">
         <h2>Ready to Start Planning Your Financial Future?</h2>
         <p className="lead mb-4">Create a free account and start using our financial planning tools today.</p>
-        <Link to="/register">
+        <Link to="/pricing">
           <Button variant="primary" size="lg" className="px-5 py-3">
-            Sign Up Now
+            View Pricing
           </Button>
         </Link>
       </Container>
