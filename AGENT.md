@@ -259,6 +259,32 @@ const processPayment = (
 
 The Amp Agent Personas System allows agents to adopt specialized roles and expertise areas using slash commands. This system enables agents to provide domain-specific guidance, adopt appropriate communication styles, and apply relevant methodologies based on the task at hand.
 
+### Best Practices
+
+#### When to Use Personas
+
+**Use personas when:**
+- You need domain-specific expertise
+- Different perspectives would be valuable
+- Communication style matters for the context
+- Specialized tools or methodologies are needed
+
+**Don't use personas when:**
+- Simple, straightforward tasks
+- Default behavior is sufficient
+- Persona switching would add unnecessary complexity
+
+#### Persona Selection Guidelines
+
+**Let auto-activation work first** - The system will choose appropriate personas based on context.
+
+**Override when needed:**
+- You want a specific perspective
+- Auto-activation chose incorrectly
+- You're learning from different viewpoints
+- Complex problems need multiple expert views
+
+
 ### Persona System Commands
 
 #### `/persona` - Persona Management
@@ -606,27 +632,3 @@ Personas can auto-activate based on:
 - **Project context and patterns**
 - **Previous conversation context**
 
-### Best Practices
-
-#### When to Use Personas
-
-**Use personas when:**
-- You need domain-specific expertise
-- Different perspectives would be valuable
-- Communication style matters for the context
-- Specialized tools or methodologies are needed
-
-**Don't use personas when:**
-- Simple, straightforward tasks
-- Default behavior is sufficient
-- Persona switching would add unnecessary complexity
-
-#### Persona Selection Guidelines
-
-**Let auto-activation work first** - The system will choose appropriate personas based on context.
-
-**Override when needed:**
-- You want a specific perspective
-- Auto-activation chose incorrectly
-- You're learning from different viewpoints
-- Complex problems need multiple expert views
