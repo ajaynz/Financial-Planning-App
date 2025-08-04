@@ -10,6 +10,7 @@ import Footer from './components/layout/Footer';
 // Page components
 import Home from './pages/Home';
 import Dashboard from './pages/Dashboard';
+import Pricing from './pages/Pricing';
 import Register from './pages/auth/Register';
 import Login from './pages/auth/Login';
 import PrivateRoute from './components/PrivateRoute';
@@ -29,6 +30,7 @@ function App() {
       <main className="flex-grow-1">
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/pricing" element={<Pricing />} />
           <Route path="/register" element={<Register />} />
           <Route path="/login" element={<Login />} />
           
