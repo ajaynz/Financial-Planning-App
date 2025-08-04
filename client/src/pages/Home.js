@@ -59,6 +59,11 @@ const Home = () => {
                   Get Started
                 </Button>
               </Link>
+              <Link to="/pricing">
+                <Button variant="outline-light" size="lg" className="me-3">
+                  View Pricing
+                </Button>
+              </Link>
               <Link to="/login">
                 <Button variant="outline-light" size="lg">
                   Login
@@ -134,6 +139,38 @@ const Home = () => {
           </Row>
         </Container>
       </div>
+
+      {/* Premium Features Teaser */}
+      <Container className="py-5">
+        <h2 className="text-center mb-5">Unlock Premium Features</h2>
+        <Row className="g-4">
+          <Col md={6}>
+            <div className="text-center">
+              <div className="p-3 bg-warning text-dark rounded-circle mx-auto mb-3" style={{ width: '70px', height: '70px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                <i className="fas fa-robot fa-2x"></i>
+              </div>
+              <h4>AI-Powered Financial Advisor</h4>
+              <p>Get personalized financial advice and recommendations tailored to your goals.</p>
+            </div>
+          </Col>
+          <Col md={6}>
+            <div className="text-center">
+              <div className="p-3 bg-warning text-dark rounded-circle mx-auto mb-3" style={{ width: '70px', height: '70px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                <i className="fas fa-chart-line fa-2x"></i>
+              </div>
+              <h4>Advanced Planning Tools</h4>
+              <p>Monte Carlo simulations, scenario planning, and real-time portfolio tracking.</p>
+            </div>
+          </Col>
+        </Row>
+        <div className="text-center mt-4">
+          <Link to="/pricing">
+            <Button variant="warning" size="lg" className="px-4">
+              View All Premium Features
+            </Button>
+          </Link>
+        </div>
+      </Container>
 
       {/* Call to Action */}
       <Container className="py-5 text-center">

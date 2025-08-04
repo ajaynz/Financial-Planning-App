@@ -12,6 +12,7 @@ import Home from './pages/Home';
 import Dashboard from './pages/Dashboard';
 import Register from './pages/auth/Register';
 import Login from './pages/auth/Login';
+import Pricing from './pages/Pricing';
 import PrivateRoute from './components/PrivateRoute';
 
 // Calculator pages
@@ -29,6 +30,7 @@ function App() {
       <main className="flex-grow-1">
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/pricing" element={<Pricing />} />
           <Route path="/register" element={<Register />} />
           <Route path="/login" element={<Login />} />
           
