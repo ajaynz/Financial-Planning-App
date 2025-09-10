@@ -8,7 +8,7 @@
    ```bash
    chmod +x start-app.sh
    ```
-
+helloworld
 2. Start the application:
    ```bash
    ./start-app.sh
@@ -199,7 +199,7 @@ const getMockPaymentPostPaymentRequest = (
 
 **Remember**: If you're typing production code and there isn't a failing test demanding that code, you're not doing TDD.
 
-### Code Quality Guidelinesaaa
+### Code Quality Guidelines
 
 #### No Comments in Code
 Code should be self-documenting through clear naming and structure. Comments indicate that the code itself is not clear enough.
