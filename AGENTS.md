@@ -8,7 +8,7 @@
    ```bash
    chmod +x start-app.sh
    ```
-h
+helloworld
 2. Start the application:
    ```bash
    ./start-app.sh
